@@ -1,3 +1,10 @@
-import * as wasm from "hello-wasm-pack";
-
-wasm.greet();
+import * as wasm from "modding_tree/modding_tree";
+import "./css/bars.css";
+import "./css/components.css";
+import "./css/general-style.css";
+import "./css/misc.css";
+import "./css/other-tabs.css";
+import "./css/popup.css";
+import "./css/system-style.css";
+import "./css/tree-node.css";
+let player = wasm.Player.new();

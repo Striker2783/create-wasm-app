@@ -1,3 +1,5 @@
-import * as wasm from "hello-wasm-pack";
+import * as wasm from "wasm";
 
-wasm.greet();
+let test = wasm.add(12, 32);
+
+console.log(test);
